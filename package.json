@@ -2,17 +2,20 @@
   "name": "responsivewebdesign_lesson12",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "ResponsiveWebDesign_lesson12.git"
+    "url": "https://github.com/IdacJohansson/ResponsiveWebDesign_lesson12.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.79.4"
   }
 }

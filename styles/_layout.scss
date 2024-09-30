@@ -1,17 +1,41 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    font-family: fonts.$main-font;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: fonts.$main-font;
 }
 
-main{
+main {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 810px;
+  height: 100%;
+  margin: 10px;
+  border: black solid;
+  position: relative;
+}
+
+/* Desktop*/
+@media screen and (min-width: 1440px) {
+  main {
     max-width: 1440px;
-    width: 100%;
-    min-height: 810px;
-    height: 100%;
-    background-color: cadetblue;
-    margin: 5px;
-    border: black solid;
+    margin: 20px;
+  }
+}
+
+/* Tablet*/
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+  main {
+    max-width: 768px;
+    margin: 15px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  main {
+    max-width: 320px;
+    margin: 10px;
+  }
 }
