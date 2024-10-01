@@ -40,7 +40,23 @@
           Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec
           viverra eleifend lacus, vitae ullamcor.
         </p>
-        <img class="img-horses" src="/images/Image.jpg" alt="running-horses" />
+        <div class="img-horses">
+          <picture>
+            <source
+              media="(max-width: 320px)"
+              srcset="/images/Image-mobile.png"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="/images/Image-tablet.jpg"
+            />
+            <source
+              media="(max-width: 1440px)"
+              srcset="/images/Image-desktop.jpg"
+            />
+            <img src="/images/Image-desktop.jpg" alt="" />
+          </picture>
+        </div>
       </div>
     </main>
   </body>

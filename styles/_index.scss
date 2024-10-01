@@ -12,7 +12,7 @@
   &__heading {
     color: colors.$darkblue;
     font-family: fonts.$heading-font;
-    font-style: normal;
+    font-weight: 500;
     text-align: center;
     max-width: 455px;
     width: 100%;
@@ -53,22 +53,5 @@
 }
 
 .img-horses {
-  max-width: 864px;
-  width: 100%;
-  min-height: 486px;
-  height: 100%;
   margin-top: 47px;
-  @media screen and (max-width: 768px) {
-    max-width: 617px;
-    width: 100%;
-    min-height: 512px;
-    height: 100%;
-  }
-
-  @media screen and (max-width: 320px) {
-    max-width: 256px;
-    width: 100%;
-    min-height: 284px;
-    height: 100%;
-  }
 }
