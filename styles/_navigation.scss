@@ -15,12 +15,28 @@
     letter-spacing: 0.25px;
     font-family: fonts.$desktop-logo-font;
     font-weight: 400;
+    @media screen and (min-width: 1440px) {
+      font-family: fonts.$desktop-logo-font;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-family: fonts.$logo-font;
+      font-weight: 700;
+    }
+
+    @media screen and (max-width: 320px) { 
+      font-family: fonts.$logo-font;
+      font-weight: 700;
+    }
   }
 
   &__list {
     list-style: none;
     display: flex;
     gap: 29px;
+    @media screen and (max-width: 320px) {
+      display: none; 
+    }
   }
   &__li {
     cursor: pointer;
@@ -32,6 +48,16 @@
   &__link {
     text-decoration: none;
     color: colors.$darkblue;
+  }
+  &__icon{
+    display: none; 
+    font-size: 24px;
+    cursor: pointer;
+
+    @media screen and (max-width: 320px) {
+      display: block; 
+    }
+
   }
 }
 
