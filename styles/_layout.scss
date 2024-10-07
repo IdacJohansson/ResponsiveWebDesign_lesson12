@@ -4,6 +4,8 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-family: fonts.$main-font;
+  max-width: 1440px;
+  width: 100%;
 }
 
 main {
