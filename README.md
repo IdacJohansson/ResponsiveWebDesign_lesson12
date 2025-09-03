@@ -1,1 +1,3 @@
-# ResponsiveWebDesign_lesson12
+# ResponsiveWebDesign
+
+A project to practise responsive design on diffrent devices.  
